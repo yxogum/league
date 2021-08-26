@@ -1,6 +1,8 @@
 @media all and (max-width: 2560px) {
   .areyou {
+    background-image: url(../images/pexels-anni-roenkae-31098161.png);
     background-repeat: repeat;
+    background-position: center;
   }
 }
 
