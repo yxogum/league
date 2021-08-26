@@ -1,3 +1,9 @@
+@media all and (max-width: 2560px) {
+  .areyou {
+    background-repeat: repeat;
+  }
+}
+
 @media all and (max-width: 1435px) {
   .cover-shows {
     display: flex;
