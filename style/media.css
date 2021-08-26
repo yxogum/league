@@ -1,0 +1,89 @@
+@media all and (max-width: 1435px) {
+  .cover-shows {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    align-items: center;
+  }
+  .i19 {
+    margin: 0 20% 0 0;
+  }
+  .i2 {
+    margin: 0 20% 0 0;
+  }
+  .i6 {
+    margin: 0 0 0 0;
+  }
+  .i3 {
+    margin: 0 20% 0 0;
+  }
+  .i4 {
+    margin: 0 20% 0 0;
+  }
+  .i51 {
+    margin: 0 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 1162px) {
+  .i19 {
+    margin: 0 15% 0 0;
+  }
+  .i2 {
+    margin: 0 15% 0 0;
+  }
+  .i6 {
+    margin: 0 0 0 0;
+  }
+  .i3 {
+    margin: 0 15% 0 0;
+  }
+  .i4 {
+    margin: 0 14% 0 0;
+  }
+  .i51 {
+    margin: 0 0 0 0px;
+  }
+}
+
+@media screen and (max-width: 981px) {
+  .i19 {
+    margin: 0 14% 0 0;
+  }
+  .i2 {
+    margin: 0 15% 0 0;
+  }
+  .i6 {
+    margin: 0 0 0 0;
+  }
+  .i3 {
+    margin: 0 15% 0 0;
+  }
+  .i4 {
+    margin: 0 14% 0 0;
+  }
+  .i51 {
+    margin: 0 0 0 0;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  .i19 {
+    margin: 0 14% 0 0;
+  }
+  .i2 {
+    margin: 0 15% 0 0;
+  }
+  .i6 {
+    margin: 0 0 0 0;
+  }
+  .i3 {
+    margin: 0 15% 0 0;
+  }
+  .i4 {
+    margin: 0 14% 0 0;
+  }
+  .i51 {
+    margin: 0 0 0 0;
+  }
+}
