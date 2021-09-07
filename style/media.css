@@ -1,95 +1,199 @@
-@media all and (max-width: 2560px) {
-  .areyou {
-    width: 55%;
+@media all and (max-width: 1440px) {
+  .block {
+    width: 75%;
+  }
+  .duration {
+    width: 12%;
   }
 }
-
-@media all and (max-width: 1435px) {
+@media all and (max-width: 1024px) {
+  .one {
+    min-height: 40%;
+  }
+  .age {
+    width: 15%;
+  }
+  .duration {
+    width: 20%;
+  }
+  .grade {
+    width: 20%;
+  }
+  .shows {
+    width: 80%;
+  }
   .cover-shows {
+    width: 80%;
+  }
+  .movies {
+    width: 80%;
+  }
+  .cover-movies {
+    width: 80%;
+  }
+  .actorsanddirectors {
+    width: 74%;
+  }
+  .actanddir {
+    width: 74%;
+  }
+  .bottom {
+    min-height: 285px;
+  }
+  .coming {
+    margin-top: 200px;
+  }
+  .areyou {
+    width: 90%;
+  }
+}
+@media all and (max-width: 768px) {
+  .box {
+    width: 33%;
+    justify-content: center;
+  }
+  .year,
+  .age,
+  .duration,
+  .grade {
+    width: 20%;
+  }
+  .one {
+    min-height: 40%;
+  }
+  .watch {
+    width: 40%;
+  }
+  .more-information {
+    width: 45%;
+  }
+  .coming {
+    text-align: center;
+    margin-top: 170px;
+    line-height: 50px;
+  }
+  .bottom-right {
+    background-position: top;
+  }
+  .areyou {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+  }
+  .areyounew {
+    width: 85%;
+  }
+}
+@media all and (max-width: 426px) {
+  .box {
+    display: none;
+  }
+  .hamburger-menu {
     display: flex;
-    flex-flow: row wrap;
-    align-content: space-between;
+    justify-content: right;
     align-items: center;
   }
-  .i19 {
-    margin: 0 20% 0 0;
+  .right-block {
+    display: none;
   }
-  .i2 {
-    margin: 0 20% 0 0;
+  .left-block {
+    width: 100%;
+    background-image: url(../images/pexels-sebastiaan-stam-1480690.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
-  .i6 {
-    margin: 0 0 0 0;
+  .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
-  .i3 {
-    margin: 0 20% 0 0;
+  .logo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffffff;
   }
-  .i4 {
-    margin: 0 20% 0 0;
+  .shows {
+    width: 66%;
   }
-  .i51 {
-    margin: 0 0 0 10px;
+  .cover-shows {
+    width: 50%;
+  }
+  .movies {
+    width: 57%;
+  }
+  .cover-movies {
+    width: 54%;
+  }
+  .see {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .more {
+    margin: 20px 0 20px 0;
+  }
+  .genres {
+    width: 58%;
+  }
+  .cover-genres {
+    min-height: 850px;
+  }
+  .cover {
+    width: 50%;
+  }
+  .actorsanddirectors {
+    width: 83%;
+  }
+  .actanddir {
+    width: 44%;
+  }
+  .bottom {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .bottom-left {
+    width: 90%;
+  }
+  .bottom-left img {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .bottom-right {
+    width: 90%;
+  }
+  .areyou {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .areyounew a {
+    font-size: 45px;
+  }
+  .register {
+    width: 33%;
+    margin: 20px 0 0 0;
+  }
+  .footer__row {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+  .footer__row ol {
+    padding-inline-start: 0;
+  }
+  .logo {
+    width: 95%;
   }
 }
-
-@media screen and (max-width: 1162px) {
-  .i19 {
-    margin: 0 15% 0 0;
-  }
-  .i2 {
-    margin: 0 15% 0 0;
-  }
-  .i6 {
-    margin: 0 0 0 0;
-  }
-  .i3 {
-    margin: 0 15% 0 0;
-  }
-  .i4 {
-    margin: 0 14% 0 0;
-  }
-  .i51 {
-    margin: 0 0 0 0px;
-  }
-}
-
-@media screen and (max-width: 981px) {
-  .i19 {
-    margin: 0 14% 0 0;
-  }
-  .i2 {
-    margin: 0 15% 0 0;
-  }
-  .i6 {
-    margin: 0 0 0 0;
-  }
-  .i3 {
-    margin: 0 15% 0 0;
-  }
-  .i4 {
-    margin: 0 14% 0 0;
-  }
-  .i51 {
-    margin: 0 0 0 0;
-  }
-}
-
-@media screen and (max-width: 967px) {
-  .i19 {
-    margin: 0 14% 0 0;
-  }
-  .i2 {
-    margin: 0 15% 0 0;
-  }
-  .i6 {
-    margin: 0 0 0 0;
-  }
-  .i3 {
-    margin: 0 15% 0 0;
-  }
-  .i4 {
-    margin: 0 14% 0 0;
-  }
-  .i51 {
-    margin: 0 0 0 0;
+@media all and (max-width: 321px) {
+  .register {
+    margin: 0 auto;
   }
 }
