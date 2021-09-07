@@ -334,12 +334,12 @@ a:hover {
 }
 .cover-movies img {
   max-width: 100%;
-  height: 309px;
+  min-height: 309px;
   border-radius: 20px;
 }
 .see {
   width: 7%;
-  height: 40px;
+  min-height: 40px;
   font-size: 16px;
   line-height: 20px;
   background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
@@ -353,7 +353,7 @@ a:hover {
 }
 .genres {
   width: 90%;
-  height: 50px;
+  min-height: 50px;
   display: flex;
   align-items: center;
 }
@@ -367,14 +367,14 @@ a:hover {
 }
 .cover-genres {
   width: 90%;
-  height: 450px;
+  min-height: 450px;
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
 }
 .cover {
   width: 23%;
-  height: 198px;
+  min-height: 198px;
   display: flex;
   justify-content: center;
   align-items: center;

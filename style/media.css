@@ -112,7 +112,7 @@
     align-content: center;
   }
   .logo {
-    width: 40%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -188,12 +188,66 @@
   .footer__row ol {
     padding-inline-start: 0;
   }
-  .logo {
+  .footer__logo {
+    width: 90%;
+  }
+}
+@media all and (max-width: 376px) {
+  .shows {
+    width: 67%;
+  }
+  .movies {
+    width: 58%;
+  }
+  .genres {
+    width: 59%;
+  }
+  .actorsanddirectors {
     width: 95%;
+  }
+  .actanddir {
+    width: 50%;
   }
 }
 @media all and (max-width: 321px) {
-  .register {
-    margin: 0 auto;
+  .block {
+    width: 90%;
+  }
+  .shows {
+    width: 80%;
+  }
+  .cover-shows {
+    width: 65%;
+  }
+  .movies {
+    width: 70%;
+  }
+  .cover-movies {
+    width: 65%;
+  }
+  .genres {
+    width: 70%;
+  }
+  .cover {
+    width: 100%;
+  }
+  .actorsanddirectors {
+    width: 70%;
+  }
+  .actanddir {
+    width: 60%;
+  }
+  .coming {
+    font-size: 45px;
+  }
+  .areyounew {
+    width: 95%;
+  }
+  .areyou {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  .logo {
+    width: 40%;
   }
 }
