@@ -210,6 +210,13 @@
   }
 }
 @media all and (max-width: 321px) {
+  .left-block {
+    min-height: 560px;
+  }
+  .main-text {
+    font-size: 48px;
+    line-height: 45px;
+  }
   .block {
     width: 90%;
   }
